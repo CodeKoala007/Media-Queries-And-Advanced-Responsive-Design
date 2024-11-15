@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <title>Responsive Design Intro</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="title">My Website</div>
+        <nav>
+            <ul>
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>This is the main heading</h1>
+            <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+            <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+            <ul class="cards">
+                <!-- Sample card content -->
+            </ul>
+
+            <section class="cool-space-rocket">
+                <h3>Cool Space Rocket</h3>
+                <picture>
+                    <source srcset="images/rocket320.webp 320w, images/rocket640.webp 640w, images/rocket1024.webp 1024w, images/rocket1280.webp 1280w" sizes="(max-width: 530px) 80vw, (max-width: 730px) 70vw, (max-width: 1500px) 50vw, 1000px" type="image/webp">
+                    <img src="images/rocket320.jpg" srcset="images/rocket320.jpg 320w, images/rocket640.jpg 640w, images/rocket1024.jpg 1024w, images/rocket1280.jpg 1280w" sizes="(max-width: 530px) 80vw, (max-width: 730px) 70vw, (max-width: 1500px) 50vw, 1000px" alt="A cool space rocket">
+                </picture>
+            </section>
+
+            <section class="space-building">
+                <h3>Space Building in Bulgaria</h3>
+                <picture>
+                    <source srcset="images/space-building320.webp 320w, images/space-building640.webp 640w, images/space-building1024.webp 1024w, images/space-building1280.webp 1280w" type="image/webp">
+                    <source srcset="images/astronaut900.jpg" media="(max-width: 900px)">
+                    <source srcset="images/astronaut1400.jpg" media="(max-width: 1400px)">
+                    <img src="images/space-building.jpg" alt="Communist UFO spaceship monument in the middle of nowhere in Bulgaria.">
+                </picture>
+            </section>
+
+        </article>
+
+        <aside class="sidebar">
+            <p>Have you discovered all of the other excellent content on this website?</p>
+
+            <section class="nasa-astronaut">
+                <h3>NASA Astronaut</h3>
+                <picture>
+                    <source srcset="images/astronaut900.webp" type="image/webp" media="(max-width: 900px)">
+                    <source srcset="images/astronaut1400.webp" type="image/webp" media="(max-width: 1400px)">
+                    <source srcset="images/astronaut900.jpg" media="(max-width: 900px)">
+                    <source srcset="images/astronaut1400.jpg" media="(max-width: 1400px)">
+                    <img src="images/astronaut.jpg" alt="NASA Astronaut flying in Space in front of Earth">
+                </picture>
+            </section>
+        </aside>
+    </main>
+</body>
+</html>
